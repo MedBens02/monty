@@ -1,6 +1,4 @@
 #include "monty.h"
-util_t util = {NULL, NULL, NULL, 0};
-
 
 /**
 * main - monty code interpreter
