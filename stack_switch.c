@@ -1,5 +1,6 @@
 #include "monty.h"
 
+util_t util = {NULL, NULL, NULL, 0};
 /**
  * f_stack_switch - switches to stack mode
  * @head: stack head
