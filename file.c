@@ -1,8 +1,6 @@
 #define _GNU_SOURCE
 #include "monty.h"
 
-util_t util = {NULL, NULL, NULL, 0};
-
 /**
  * open_file - opens a file
  * @name: the file namepath
