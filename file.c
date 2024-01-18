@@ -1,6 +1,7 @@
 #define _GNU_SOURCE
 #include "monty.h"
 
+
 /**
  * open_file - opens a file
  * @name: the file namepath

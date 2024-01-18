@@ -26,14 +26,12 @@ void f_push(stack_t **head, unsigned int counter)
 		fclose(util.file);
 		free(util.content);
 		free_stack(*head);
-		exit(EXIT_FAILURE);
+		exit(EXIT_FAILURE); 
 	}
 
 	n = atoi(util.value);
 	if (util.flag == 0)
 		add_dnodeint(head, n);
-	else
-	{
-		add_dnodeint_end(head, n);
-	}
+	/*else
+		addqueue(head, n);*/
 }
